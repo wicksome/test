@@ -1,1 +1,3 @@
-http://uml.mvnsearch.org/github/wicksome/test/blob/master/test.puml
+demo: 
+
+http://uml.mvnsearch.org/github/wicksome/test/blob/master/uml/test.puml
