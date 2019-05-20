@@ -1,0 +1,29 @@
+<div class="section_list first fd_on">
+  <h3 class="h_lft_menu">
+    <a href="#">사내 주소록</a>
+    <a href="#" class="arr_c" title="펼치기"><em></em>펼치기</a>
+  </h3>
+
+  <div class="tree_box">
+    <h4 class="menu_tadd tree_label_area">
+      <span class="ml_t">
+        <span class="arr_dmn tenant">&nbsp;</span
+        ><span class="ma" title="한국어회사명" style="max-width:130px"
+          >한국어회사명</span
+        ><span class="dnum">&nbsp;<a href="#" class="">71699</a></span>
+      </span>
+    </h4>
+    <ul class="works_list">
+      <li class="section_list group_domain">
+        <h4 class="menu_tadd choice">
+          <span class="ml_t"
+            ><span class="arr_c" title="접기"><em></em>접기</span
+            ><span class="arr_dmn">&nbsp;</span
+            ><a href="#" class="ma">그룹도메인명</a
+            ><span class="dnum">&nbsp;<a href="#">183</a></span></span
+          >
+        </h4>
+      </li>
+    </ul>
+  </div>
+</div>
