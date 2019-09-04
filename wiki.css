@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/* Common(Reset) */
+/* body,
+table,
+tr,
+td,
+p,
+.pagetitle,
+.bodytext,
+.stepfield,
+.grey,
+.panelheader {
+  font-family: "나눔고딕", NanumGothic, "맑은 고딕", "Malgun Gothic", "돋움",
+    Dotum, "굴림", Gulim, Helvetica, AppleGothic, sans-serif;
+} */
+#main {
+  font-family: "나눔고딕", NanumGothic, "맑은 고딕", "Malgun Gothic", "돋움",
+    Dotum, "굴림", Gulim, Helvetica, AppleGothic, sans-serif;
+}
+.wiki-content,
+.wiki-content p,
+.wiki-content table,
+.wiki-content tr,
+.wiki-content td,
+.wiki-content th,
+.wiki-content ol,
+.wiki-content ul,
+.wiki-content li {
+  font-size: 14px;
+  line-height: 160%;
+}
+.pagecontent {
+  padding: 18px;
+}
+
+/* Content */
+#main {
+  padding: 15px 20px 3em;
+}
+#main #content {
+  padding-right: 0px;
+}
+#main-header:not(.doctheme-no-override) #title-text {
+  padding-top: 15px;
+}
+
+.wiki-content {
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+}
+.wiki-content h1 {
+  margin: 2em -20px 0.8em -20px;
+  padding: 6px 20px;
+  background: #333;
+  box-shadow: 0px 3px 0px #ccc;
+  font-size: 1.6em;
+  color: #fff;
+}
+.wiki-content h1:first-of-type {
+  margin-top: 1em;
+}
+.wiki-content h2 {
+  margin-bottom: 0.8em;
+  padding-bottom: 0.1em;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0px 3px #eee;
+  background: none;
+  font-size: 1.6em;
+  transition: background-size 0.2s;
+}
+.wiki-content h3 {
+  margin-bottom: 0.8em;
+  padding-bottom: 0.1em;
+  border-bottom: 1px dashed #ccc;
+  background: none;
+  font-size: 1.5em;
+  font-weight: normal;
+  transition: background-size 0.2s;
+}
+.wiki-content h4 {
+  line-height: 1em;
+  margin-bottom: 0.8em;
+  padding: 0px 10px;
+  border-left: 3px solid #333;
+  background: none;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+.wiki-content h5 {
+  line-height: 1em;
+  margin-bottom: 0.8em;
+  padding: 0px 10px;
+  border-left: 3px solid #707070;
+  background: none;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+.wiki-content h6 {
+  display: inline-block;
+  /* margin-bottom: .8em; */
+  padding: 3px 8px;
+  border-radius: 5px;
+  color: #fff;
+  background: #707070;
+  font-size: 1em;
+  font-weight: normal;
+}
+.wiki-content .two-equal h1,
+.wiki-content .two-left-sidebar h1,
+.wiki-content .two-right-sidebar h1,
+.wiki-content .three-equal h1,
+.wiki-content .three-with-sidebars h1,
+.wiki-content .sectionMacroRow h1 {
+  margin: 2em 0px 0.8em 0px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.wiki-content img.confluence-embedded-image {
+  max-width: 100% !important;
+}
+th.confluenceth,
+table.confluencetable th.confluenceth,
+table.admin th,
+td.confluencetd,
+table.confluencetable td.confluencetd,
+table.admin td {
+  padding: 0.4em 0.5em;
+}
+.code pre,
+.preformatted pre {
+  overflow: auto;
+  max-width: 1100px;
+  margin: 0;
+  padding: 0;
+}
+.confluenceTd .code pre,
+.confluenceTd .preformatted pre {
+  max-width: 400px;
+}
+.sr-showcase > h2 {
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 10px;
+}
+.sr-showcase > img {
+  margin-top: 0px;
+}
+.wiki-content .innerCell {
+  overflow-x: inherit;
+}
+#comments-section .comment.focused {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.page-metadata {
+  margin: -15px 0 0px;
+}
+blockquote {
+  margin-left: 30px;
+  border-left: 0px;
+  font-style: italic;
+}
+blockquote:before {
+  content: "\201C";
+  font-size: 5em;
+  font-family: Georgia;
+  color: #bcbcbc;
+  float: left;
+  margin: 17px 0px 0px -45px;
+}
