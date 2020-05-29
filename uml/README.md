@@ -6,7 +6,7 @@ see:
 
 http://uml.mvnsearch.org/index_github.jsp
 
-```puml
+```uml
 @startuml
 Alice -> Bob1: Authentication Request
 Bob --> Alice: Authentication Response
