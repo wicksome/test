@@ -15,3 +15,14 @@ Alice -> Bob1: Another authentication Request
 Alice <-- Bob1: Another authentication Response
 @enduml
 ```
+
+```puml
+@startuml
+Alice -> Bob1: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob1: Another authentication Request
+Alice <-- Bob1: Another authentication Response
+@enduml
+```
+
